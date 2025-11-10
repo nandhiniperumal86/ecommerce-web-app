@@ -85,5 +85,4 @@ Ideal for FAANG/MAANG portfolio inclusion
 
 ---
 
-Would you like me to also give you a **ready-made GitHub profile README** that complements this project — the one shown on your GitHub home page (with bio, skills, pinned projects, contact links, etc.) to attract recruiters?
 
