@@ -1,5 +1,5 @@
 # Full-stack E-Commerce Web App using MERN stack.                                            
-🛍️ E-Commerce Web App
+# 🛍️ E-Commerce Web App
 
 **Full-stack shopping platform built with the MERN stack (MongoDB, Express, React, Node.js)**.  
 Includes secure authentication, product management, cart, and responsive UI.  
