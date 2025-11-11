@@ -1,0 +1,7 @@
+* Redux Toolkit for state management
+* Axios-based API calls
+* Loader & Message components for UI feedback
+* Protected Admin route
+* Responsive Bootstrap UI
+* Login/Register + Home pages
+* Ready to integrate with the backend API
