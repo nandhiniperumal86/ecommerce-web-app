@@ -1,0 +1,6 @@
+* Secure JWT authentication
+* Password encryption with bcrypt
+* Admin route protection
+* Modular architecture
+* Pagination-ready API design
+* Error handling middleware
