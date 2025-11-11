@@ -40,25 +40,51 @@ Designed for scalability, performance, and clean architecture — ideal for real
 
 # 📂 Project Structure
 
-ecommerce-web-app/
-│
+ ecommerce-app/
 ├── backend/
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ └── server.js
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   └── userController.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorMiddleware.js
+│   ├── models/
+│   │   ├── userModel.js
+│   │   └── productModel.js
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   └── userRoutes.js
+│   ├── utils/
+│   │   └── generateToken.js
+│   ├── server.js
+│   └── package.json
 │
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.js
-│ │ └── index.js
-│ └── public/
-│
-└── README.md                                                                               
+└── frontend/
+    ├── src/
+    │   ├── app/
+    │   │   └── store.js
+    │   ├── features/
+    │   │   ├── auth/
+    │   │   │   ├── authSlice.js
+    │   │   │   └── authService.js
+    │   │   └── products/
+    │   │       ├── productSlice.js
+    │   │       └── productService.js
+    │   ├── components/
+    │   │   ├── Loader.js
+    │   │   ├── Message.js
+    │   │   └── ProductCard.js
+    │   ├── pages/
+    │   │   ├── HomeScreen.js
+    │   │   ├── LoginScreen.js
+    │   │   ├── RegisterScreen.js
+    │   │   └── AdminDashboard.js
+    │   ├── App.js
+    │   └── index.js
+    └── package.json
+                                                                          
 ---
 
 # 🧠 Learning Highlights
